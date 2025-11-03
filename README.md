@@ -70,7 +70,7 @@ class DataExplorer:
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-<p><sub>ETL automatizado para análise de vendas</sub></p>
+<p><sub>Descubra sua personalidade musical e se aventure nos padrões sonoros</sub></p>
 
 </div>
 
