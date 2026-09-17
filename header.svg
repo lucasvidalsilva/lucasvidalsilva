@@ -1,0 +1,60 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lucas Vidal Silva — Engenheiro de Dados">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#121A2B"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#63E6BE"/>
+      <stop offset="100%" stop-color="#74C0FC"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+
+  <g opacity="0.12">
+    <path d="M70 55 H1130" stroke="#FFFFFF" stroke-width="1"/>
+    <path d="M70 245 H1130" stroke="#FFFFFF" stroke-width="1"/>
+  </g>
+
+  <text x="72" y="104" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">
+    Lucas Vidal Silva
+  </text>
+  <text x="72" y="145" fill="#9FB3C8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">
+    Engenheiro de Dados
+  </text>
+
+  <g transform="translate(72,205)">
+    <circle cx="0" cy="0" r="7" fill="#63E6BE" filter="url(#glow)"/>
+    <line x1="10" y1="0" x2="173" y2="0" stroke="url(#line)" stroke-width="3"/>
+    <circle cx="183" cy="0" r="7" fill="#63E6BE"/>
+    <line x1="193" y1="0" x2="356" y2="0" stroke="url(#line)" stroke-width="3"/>
+    <circle cx="366" cy="0" r="7" fill="#74C0FC"/>
+    <line x1="376" y1="0" x2="539" y2="0" stroke="url(#line)" stroke-width="3"/>
+    <circle cx="549" cy="0" r="7" fill="#74C0FC"/>
+  </g>
+
+  <g fill="#DCE7F3" font-family="JetBrains Mono,Consolas,monospace" font-size="14">
+    <text x="72" y="240">dados brutos</text>
+    <text x="235" y="240">pipeline</text>
+    <text x="416" y="240">confiança</text>
+    <text x="582" y="240">decisão</text>
+  </g>
+
+  <g transform="translate(850,75)" font-family="JetBrains Mono,Consolas,monospace">
+    <text x="0" y="0" fill="#64748B" font-size="14">pipeline.py</text>
+    <text x="0" y="35" fill="#63E6BE" font-size="16">def</text>
+    <text x="35" y="35" fill="#F8FAFC" font-size="16">engenharia(dados):</text>
+    <text x="20" y="65" fill="#9FB3C8" font-size="16">validar()</text>
+    <text x="20" y="95" fill="#9FB3C8" font-size="16">transformar()</text>
+    <text x="20" y="125" fill="#9FB3C8" font-size="16">observar()</text>
+    <text x="20" y="155" fill="#74C0FC" font-size="16">return valor</text>
+  </g>
+</svg>
