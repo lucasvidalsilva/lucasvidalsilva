@@ -1,81 +1,92 @@
 <div align="center">
 
-# Lucas Vidal Silva
+<img src="./header.svg" width="100%" alt="Lucas Vidal Silva — Engenheiro de Dados" />
 
-### Data Engineer
+<br>
 
-`raw → reliable → trusted → useful`
+### Engenheiro de Dados
 
-Building data systems that are **reproducible, observable and useful**.
+Transformo dados dispersos em **pipelines confiáveis** e **produtos de dados úteis para decisão**.
 
-[LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah) · [GitHub](https://github.com/lucasvidalsilva)
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-111827?style=flat-square&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-111827?style=flat-square&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-111827?style=flat-square&logo=databricks&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-111827?style=flat-square&logo=dbt&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-111827?style=flat-square&logo=apachekafka&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white)
+
+</div>
+
+[LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah) · [Projetos](#projetos-em-destaque)
 
 </div>
 
 ---
 
-### `> focus`
+## Projetos em destaque
 
-```text
-pipelines      lakehouse      data quality
-streaming      analytics      financial data
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I like the full path of data:
+### [CredLake](https://github.com/lucasvidalsilva/credito-analytics-databricks)
 
-**how it enters → how it changes → how we trust it → how it becomes useful**
+Lakehouse para análise de carteira de crédito.
+
+**Mostra:** ingestão batch e incremental, Medallion, qualidade, quarentena, reconciliação financeira, camada Gold, observabilidade e orquestração.
+
+`Databricks` `PySpark` `Delta Lake` `Auto Loader` `Lakeflow`
+
+</td>
+<td width="50%" valign="top">
+
+### [CDC Real-Time](https://github.com/lucasvidalsilva/cdc-realtime)
+
+Pipeline de Change Data Capture a partir do WAL do PostgreSQL.
+
+**Mostra:** captura de `INSERT`, `UPDATE` e `DELETE` sem recarregar a tabela inteira.
+
+`PostgreSQL` `Debezium` `Kafka` `Python`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Data Quality](https://github.com/lucasvidalsilva/data-quality)
+
+Pipeline defensivo com contratos de dados e validação automática.
+
+**Mostra:** dado ruim é bloqueado antes de chegar à camada analítica.
+
+`Great Expectations` `dbt` `DuckDB` `Testing`
+
+</td>
+<td width="50%" valign="top">
+
+### [Lakehouse Local](https://github.com/lucasvidalsilva/lakehouse-local)
+
+Lakehouse local usando formatos abertos.
+
+**Mostra:** time travel, schema evolution e consultas analíticas sem depender de um warehouse proprietário.
+
+`Iceberg` `MinIO` `DuckDB` `Parquet`
+
+</td>
+</tr>
+</table>
 
 ---
-
-### `> stack`
-
-<p>
-  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/PySpark-111827?style=flat-square&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/Databricks-111827?style=flat-square&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Delta_Lake-111827?style=flat-square&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbt-111827?style=flat-square&logo=dbt&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kafka-111827?style=flat-square&logo=apachekafka&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white" />
-</p>
-
----
-
-### `> selected work`
-
-| Project | What it proves |
-|---|---|
-| **[CredLake](https://github.com/lucasvidalsilva/credito-analytics-databricks)** | Credit portfolio lakehouse with Databricks, PySpark, Delta Lake, Auto Loader, quality controls and orchestration. |
-| **[CDC Real-Time](https://github.com/lucasvidalsilva/cdc-realtime)** | PostgreSQL WAL → Debezium → Kafka → Python consumer. |
-| **[Data Quality](https://github.com/lucasvidalsilva/data-quality)** | Data contracts, automated validation, dbt transformations and failure alerts. |
-| **[Analytics Engineering](https://github.com/lucasvidalsilva/dbt-etl)** | Versioned, tested and documented transformations with dbt. |
-| **[Local Lakehouse](https://github.com/lucasvidalsilva/lakehouse-local)** | Iceberg + MinIO + DuckDB for a local open-table-format lakehouse. |
-
----
-
-### `> engineering mindset`
-
-```text
-reliability > cleverness
-observability > guessing
-reproducibility > "works on my machine"
-business context > technology for technology's sake
-```
-
-> Dados isolados informam. Dados conectados revelam padrões.  
-> **Dados confiáveis, aplicados ao contexto, geram decisões melhores.**
-
----
-
-### `> currently`
-
-Deepening my work in **Databricks, Lakehouse architecture, distributed data systems and financial data**.
 
 <div align="center">
 
 <br>
 
-`build systems · understand principles · create value`
+**construir sistemas · entender princípios · gerar valor**
 
 </div>
