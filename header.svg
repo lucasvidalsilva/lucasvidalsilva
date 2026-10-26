@@ -1,60 +1,26 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lucas Vidal Silva — Engenheiro de Dados">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="100%" stop-color="#121A2B"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#63E6BE"/>
-      <stop offset="100%" stop-color="#74C0FC"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-
-  <g opacity="0.12">
-    <path d="M70 55 H1130" stroke="#FFFFFF" stroke-width="1"/>
-    <path d="M70 245 H1130" stroke="#FFFFFF" stroke-width="1"/>
-  </g>
-
-  <text x="72" y="104" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">
-    Lucas Vidal Silva
-  </text>
-  <text x="72" y="145" fill="#9FB3C8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">
-    Engenheiro de Dados
-  </text>
-
-  <g transform="translate(72,205)">
-    <circle cx="0" cy="0" r="7" fill="#63E6BE" filter="url(#glow)"/>
-    <line x1="10" y1="0" x2="173" y2="0" stroke="url(#line)" stroke-width="3"/>
-    <circle cx="183" cy="0" r="7" fill="#63E6BE"/>
-    <line x1="193" y1="0" x2="356" y2="0" stroke="url(#line)" stroke-width="3"/>
-    <circle cx="366" cy="0" r="7" fill="#74C0FC"/>
-    <line x1="376" y1="0" x2="539" y2="0" stroke="url(#line)" stroke-width="3"/>
-    <circle cx="549" cy="0" r="7" fill="#74C0FC"/>
-  </g>
-
-  <g fill="#DCE7F3" font-family="JetBrains Mono,Consolas,monospace" font-size="14">
-    <text x="72" y="240">dados brutos</text>
-    <text x="235" y="240">pipeline</text>
-    <text x="416" y="240">confiança</text>
-    <text x="582" y="240">decisão</text>
-  </g>
-
-  <g transform="translate(850,75)" font-family="JetBrains Mono,Consolas,monospace">
-    <text x="0" y="0" fill="#64748B" font-size="14">pipeline.py</text>
-    <text x="0" y="35" fill="#63E6BE" font-size="16">def</text>
-    <text x="35" y="35" fill="#F8FAFC" font-size="16">engenharia(dados):</text>
-    <text x="20" y="65" fill="#9FB3C8" font-size="16">validar()</text>
-    <text x="20" y="95" fill="#9FB3C8" font-size="16">transformar()</text>
-    <text x="20" y="125" fill="#9FB3C8" font-size="16">observar()</text>
-    <text x="20" y="155" fill="#74C0FC" font-size="16">return valor</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-label="Lucas Vidal Silva, entre o dado bruto e uma boa decisão existe engenharia">
+<style>
+@keyframes pulse {0%,100%{opacity:.3} 50%{opacity:1}}
+@keyframes flow {0%{transform:translateX(-28px);opacity:0} 20%,75%{opacity:1} 100%{transform:translateX(58px);opacity:0}}
+@keyframes blink {0%,48%{opacity:1} 49%,100%{opacity:0}}
+.packet{animation:flow 4.5s ease-in-out infinite} .star{animation:pulse 3s ease-in-out infinite} .cursor{animation:blink 1.3s step-end infinite}
+@media (prefers-reduced-motion: reduce) { .packet,.star,.cursor{animation:none} }
+</style>
+<rect width="1200" height="390" rx="18" fill="#101820"/>
+<rect x="22" y="22" width="1156" height="346" rx="11" fill="none" stroke="#31434B" />
+<line x1="46" y1="66" x2="1155" y2="66" stroke="#31434B"/>
+<circle cx="54" cy="45" r="5" fill="#C6F17A"/><circle cx="73" cy="45" r="5" fill="#79D7D4" opacity=".7"/><circle cx="92" cy="45" r="5" fill="#9AAAB1" opacity=".4"/>
+<text x="115" y="50" fill="#9AAAB1" font-family="monospace" font-size="13">/home/vidal/ideas</text>
+<text x="1153" y="50" text-anchor="end" fill="#9AAAB1" font-family="monospace" font-size="13">FIELD NOTES / 001</text>
+<text x="60" y="122" fill="#C6F17A" font-size="15" font-family="monospace" letter-spacing="2">LUCAS VIDAL SILVA  /  DATA ENGINEER</text>
+<text x="58" y="186" fill="#F2EDE2" font-size="46" font-weight="700" font-family="Arial, Helvetica, sans-serif">Entre o dado bruto</text>
+<text x="58" y="239" fill="#F2EDE2" font-size="46" font-weight="700" font-family="Arial, Helvetica, sans-serif">e uma boa decisão,</text>
+<text x="58" y="291" fill="#C6F17A" font-size="46" font-weight="700" font-family="Arial, Helvetica, sans-serif">existe engenharia.</text>
+<text x="60" y="336" fill="#9AAAB1" font-size="14" font-family="monospace">curiosidade / sistemas / perguntas melhores</text>
+<g opacity=".45"><circle cx="740" cy="70" r="1.2" fill="#31434B" /><circle cx="740" cy="97" r="1.2" fill="#31434B" /><circle cx="740" cy="124" r="1.2" fill="#31434B" /><circle cx="740" cy="151" r="1.2" fill="#31434B" /><circle cx="740" cy="178" r="1.2" fill="#31434B" /><circle cx="740" cy="205" r="1.2" fill="#31434B" /><circle cx="740" cy="232" r="1.2" fill="#31434B" /><circle cx="740" cy="259" r="1.2" fill="#31434B" /><circle cx="740" cy="286" r="1.2" fill="#31434B" /><circle cx="740" cy="313" r="1.2" fill="#31434B" /><circle cx="767" cy="70" r="1.2" fill="#31434B" /><circle cx="767" cy="97" r="1.2" fill="#31434B" /><circle cx="767" cy="124" r="1.2" fill="#31434B" /><circle cx="767" cy="151" r="1.2" fill="#31434B" /><circle cx="767" cy="178" r="1.2" fill="#31434B" /><circle cx="767" cy="205" r="1.2" fill="#31434B" /><circle cx="767" cy="232" r="1.2" fill="#31434B" /><circle cx="767" cy="259" r="1.2" fill="#31434B" /><circle cx="767" cy="286" r="1.2" fill="#31434B" /><circle cx="767" cy="313" r="1.2" fill="#31434B" /><circle cx="794" cy="70" r="1.2" fill="#31434B" /><circle cx="794" cy="97" r="1.2" fill="#31434B" /><circle cx="794" cy="124" r="1.2" fill="#31434B" /><circle cx="794" cy="151" r="1.2" fill="#31434B" /><circle cx="794" cy="178" r="1.2" fill="#31434B" /><circle cx="794" cy="205" r="1.2" fill="#31434B" /><circle cx="794" cy="232" r="1.2" fill="#31434B" /><circle cx="794" cy="259" r="1.2" fill="#31434B" /><circle cx="794" cy="286" r="1.2" fill="#31434B" /><circle cx="794" cy="313" r="1.2" fill="#31434B" /><circle cx="821" cy="70" r="1.2" fill="#31434B" /><circle cx="821" cy="97" r="1.2" fill="#31434B" /><circle cx="821" cy="124" r="1.2" fill="#31434B" /><circle cx="821" cy="151" r="1.2" fill="#31434B" /><circle cx="821" cy="178" r="1.2" fill="#31434B" /><circle cx="821" cy="205" r="1.2" fill="#31434B" /><circle cx="821" cy="232" r="1.2" fill="#31434B" /><circle cx="821" cy="259" r="1.2" fill="#31434B" /><circle cx="821" cy="286" r="1.2" fill="#31434B" /><circle cx="821" cy="313" r="1.2" fill="#31434B" /><circle cx="848" cy="70" r="1.2" fill="#31434B" /><circle cx="848" cy="97" r="1.2" fill="#31434B" /><circle cx="848" cy="124" r="1.2" fill="#31434B" /><circle cx="848" cy="151" r="1.2" fill="#31434B" /><circle cx="848" cy="178" r="1.2" fill="#31434B" /><circle cx="848" cy="205" r="1.2" fill="#31434B" /><circle cx="848" cy="232" r="1.2" fill="#31434B" /><circle cx="848" cy="259" r="1.2" fill="#31434B" /><circle cx="848" cy="286" r="1.2" fill="#31434B" /><circle cx="848" cy="313" r="1.2" fill="#31434B" /><circle cx="875" cy="70" r="1.2" fill="#31434B" /><circle cx="875" cy="97" r="1.2" fill="#31434B" /><circle cx="875" cy="124" r="1.2" fill="#31434B" /><circle cx="875" cy="151" r="1.2" fill="#31434B" /><circle cx="875" cy="178" r="1.2" fill="#31434B" /><circle cx="875" cy="205" r="1.2" fill="#31434B" /><circle cx="875" cy="232" r="1.2" fill="#31434B" /><circle cx="875" cy="259" r="1.2" fill="#31434B" /><circle cx="875" cy="286" r="1.2" fill="#31434B" /><circle cx="875" cy="313" r="1.2" fill="#31434B" /><circle cx="902" cy="70" r="1.2" fill="#31434B" /><circle cx="902" cy="97" r="1.2" fill="#31434B" /><circle cx="902" cy="124" r="1.2" fill="#31434B" /><circle cx="902" cy="151" r="1.2" fill="#31434B" /><circle cx="902" cy="178" r="1.2" fill="#31434B" /><circle cx="902" cy="205" r="1.2" fill="#31434B" /><circle cx="902" cy="232" r="1.2" fill="#31434B" /><circle cx="902" cy="259" r="1.2" fill="#31434B" /><circle cx="902" cy="286" r="1.2" fill="#31434B" /><circle cx="902" cy="313" r="1.2" fill="#31434B" /><circle cx="929" cy="70" r="1.2" fill="#31434B" /><circle cx="929" cy="97" r="1.2" fill="#31434B" /><circle cx="929" cy="124" r="1.2" fill="#31434B" /><circle cx="929" cy="151" r="1.2" fill="#31434B" /><circle cx="929" cy="178" r="1.2" fill="#31434B" /><circle cx="929" cy="205" r="1.2" fill="#31434B" /><circle cx="929" cy="232" r="1.2" fill="#31434B" /><circle cx="929" cy="259" r="1.2" fill="#31434B" /><circle cx="929" cy="286" r="1.2" fill="#31434B" /><circle cx="929" cy="313" r="1.2" fill="#31434B" /><circle cx="956" cy="70" r="1.2" fill="#31434B" /><circle cx="956" cy="97" r="1.2" fill="#31434B" /><circle cx="956" cy="124" r="1.2" fill="#31434B" /><circle cx="956" cy="151" r="1.2" fill="#31434B" /><circle cx="956" cy="178" r="1.2" fill="#31434B" /><circle cx="956" cy="205" r="1.2" fill="#31434B" /><circle cx="956" cy="232" r="1.2" fill="#31434B" /><circle cx="956" cy="259" r="1.2" fill="#31434B" /><circle cx="956" cy="286" r="1.2" fill="#31434B" /><circle cx="956" cy="313" r="1.2" fill="#31434B" /><circle cx="983" cy="70" r="1.2" fill="#31434B" /><circle cx="983" cy="97" r="1.2" fill="#31434B" /><circle cx="983" cy="124" r="1.2" fill="#31434B" /><circle cx="983" cy="151" r="1.2" fill="#31434B" /><circle cx="983" cy="178" r="1.2" fill="#31434B" /><circle cx="983" cy="205" r="1.2" fill="#31434B" /><circle cx="983" cy="232" r="1.2" fill="#31434B" /><circle cx="983" cy="259" r="1.2" fill="#31434B" /><circle cx="983" cy="286" r="1.2" fill="#31434B" /><circle cx="983" cy="313" r="1.2" fill="#31434B" /><circle cx="1010" cy="70" r="1.2" fill="#31434B" /><circle cx="1010" cy="97" r="1.2" fill="#31434B" /><circle cx="1010" cy="124" r="1.2" fill="#31434B" /><circle cx="1010" cy="151" r="1.2" fill="#31434B" /><circle cx="1010" cy="178" r="1.2" fill="#31434B" /><circle cx="1010" cy="205" r="1.2" fill="#31434B" /><circle cx="1010" cy="232" r="1.2" fill="#31434B" /><circle cx="1010" cy="259" r="1.2" fill="#31434B" /><circle cx="1010" cy="286" r="1.2" fill="#31434B" /><circle cx="1010" cy="313" r="1.2" fill="#31434B" /><circle cx="1037" cy="70" r="1.2" fill="#31434B" /><circle cx="1037" cy="97" r="1.2" fill="#31434B" /><circle cx="1037" cy="124" r="1.2" fill="#31434B" /><circle cx="1037" cy="151" r="1.2" fill="#31434B" /><circle cx="1037" cy="178" r="1.2" fill="#31434B" /><circle cx="1037" cy="205" r="1.2" fill="#31434B" /><circle cx="1037" cy="232" r="1.2" fill="#31434B" /><circle cx="1037" cy="259" r="1.2" fill="#31434B" /><circle cx="1037" cy="286" r="1.2" fill="#31434B" /><circle cx="1037" cy="313" r="1.2" fill="#31434B" /><circle cx="1064" cy="70" r="1.2" fill="#31434B" /><circle cx="1064" cy="97" r="1.2" fill="#31434B" /><circle cx="1064" cy="124" r="1.2" fill="#31434B" /><circle cx="1064" cy="151" r="1.2" fill="#31434B" /><circle cx="1064" cy="178" r="1.2" fill="#31434B" /><circle cx="1064" cy="205" r="1.2" fill="#31434B" /><circle cx="1064" cy="232" r="1.2" fill="#31434B" /><circle cx="1064" cy="259" r="1.2" fill="#31434B" /><circle cx="1064" cy="286" r="1.2" fill="#31434B" /><circle cx="1064" cy="313" r="1.2" fill="#31434B" /><circle cx="1091" cy="70" r="1.2" fill="#31434B" /><circle cx="1091" cy="97" r="1.2" fill="#31434B" /><circle cx="1091" cy="124" r="1.2" fill="#31434B" /><circle cx="1091" cy="151" r="1.2" fill="#31434B" /><circle cx="1091" cy="178" r="1.2" fill="#31434B" /><circle cx="1091" cy="205" r="1.2" fill="#31434B" /><circle cx="1091" cy="232" r="1.2" fill="#31434B" /><circle cx="1091" cy="259" r="1.2" fill="#31434B" /><circle cx="1091" cy="286" r="1.2" fill="#31434B" /><circle cx="1091" cy="313" r="1.2" fill="#31434B" /><circle cx="1118" cy="70" r="1.2" fill="#31434B" /><circle cx="1118" cy="97" r="1.2" fill="#31434B" /><circle cx="1118" cy="124" r="1.2" fill="#31434B" /><circle cx="1118" cy="151" r="1.2" fill="#31434B" /><circle cx="1118" cy="178" r="1.2" fill="#31434B" /><circle cx="1118" cy="205" r="1.2" fill="#31434B" /><circle cx="1118" cy="232" r="1.2" fill="#31434B" /><circle cx="1118" cy="259" r="1.2" fill="#31434B" /><circle cx="1118" cy="286" r="1.2" fill="#31434B" /><circle cx="1118" cy="313" r="1.2" fill="#31434B" /><circle cx="1145" cy="70" r="1.2" fill="#31434B" /><circle cx="1145" cy="97" r="1.2" fill="#31434B" /><circle cx="1145" cy="124" r="1.2" fill="#31434B" /><circle cx="1145" cy="151" r="1.2" fill="#31434B" /><circle cx="1145" cy="178" r="1.2" fill="#31434B" /><circle cx="1145" cy="205" r="1.2" fill="#31434B" /><circle cx="1145" cy="232" r="1.2" fill="#31434B" /><circle cx="1145" cy="259" r="1.2" fill="#31434B" /><circle cx="1145" cy="286" r="1.2" fill="#31434B" /><circle cx="1145" cy="313" r="1.2" fill="#31434B" /><circle cx="1172" cy="70" r="1.2" fill="#31434B" /><circle cx="1172" cy="97" r="1.2" fill="#31434B" /><circle cx="1172" cy="124" r="1.2" fill="#31434B" /><circle cx="1172" cy="151" r="1.2" fill="#31434B" /><circle cx="1172" cy="178" r="1.2" fill="#31434B" /><circle cx="1172" cy="205" r="1.2" fill="#31434B" /><circle cx="1172" cy="232" r="1.2" fill="#31434B" /><circle cx="1172" cy="259" r="1.2" fill="#31434B" /><circle cx="1172" cy="286" r="1.2" fill="#31434B" /><circle cx="1172" cy="313" r="1.2" fill="#31434B" /></g>
+<line x1="875" y1="302" x2="1140" y2="302" stroke="#31434B" stroke-dasharray="5 8"/>
+<g><rect x="786" y="100" width="24" height="24" fill="#79D7D4" /><rect x="791" y="105" width="14" height="14" fill="#101820" /><rect x="817" y="136" width="24" height="24" fill="#9AAAB1" /><rect x="822" y="141" width="14" height="14" fill="#101820" /><rect x="772" y="172" width="24" height="24" fill="#79D7D4" /><rect x="777" y="177" width="14" height="14" fill="#101820" /><rect x="840" y="192" width="24" height="24" fill="#9AAAB1" /><rect x="845" y="197" width="14" height="14" fill="#101820" /><rect x="808" y="228" width="24" height="24" fill="#79D7D4" /><rect x="813" y="233" width="14" height="14" fill="#101820" /><rect x="873" y="188" width="8" height="8" fill="#C6F17A" opacity="0.48"/><rect x="890" y="194" width="8" height="8" fill="#79D7D4" opacity="0.52"/><rect x="907" y="199" width="8" height="8" fill="#79D7D4" opacity="0.57"/><rect x="924" y="200" width="8" height="8" fill="#C6F17A" opacity="0.61"/><rect x="941" y="198" width="8" height="8" fill="#79D7D4" opacity="0.65"/><rect x="958" y="193" width="8" height="8" fill="#79D7D4" opacity="0.69"/><rect x="975" y="187" width="8" height="8" fill="#C6F17A" opacity="0.74"/><rect x="992" y="181" width="8" height="8" fill="#79D7D4" opacity="0.78"/><rect x="1009" y="176" width="8" height="8" fill="#79D7D4" opacity="0.82"/><rect x="1026" y="176" width="8" height="8" fill="#C6F17A" opacity="0.87"/><rect x="1043" y="178" width="8" height="8" fill="#79D7D4" opacity="0.91"/><rect x="1060" y="184" width="8" height="8" fill="#79D7D4" opacity="0.95"/><rect x="1060" y="233" width="12" height="45" fill="#31434B" /><rect x="1060" y="233" width="12" height="6" fill="#79D7D4" /><rect x="1078" y="200" width="12" height="78" fill="#31434B" /><rect x="1078" y="200" width="12" height="6" fill="#79D7D4" /><rect x="1096" y="162" width="12" height="116" fill="#31434B" /><rect x="1096" y="162" width="12" height="6" fill="#79D7D4" /><rect x="1114" y="186" width="12" height="92" fill="#31434B" /><rect x="1114" y="186" width="12" height="6" fill="#79D7D4" /><rect x="1132" y="139" width="12" height="139" fill="#31434B" /><rect x="1132" y="139" width="12" height="6" fill="#C6F17A" /><rect x="1150" y="117" width="12" height="161" fill="#31434B" /><rect x="1150" y="117" width="12" height="6" fill="#C6F17A" /><rect x="1014" y="112" width="7" height="30" fill="#C6F17A" /><rect x="1003" y="123" width="30" height="7" fill="#C6F17A" /></g>
+<rect class="packet" x="923" y="178" width="15" height="15" fill="#C6F17A" />
+<rect class="cursor" x="705" y="320" width="9" height="16" fill="#C6F17A"/>
+<circle class="star" cx="1000" cy="100" r="3.5" fill="#C6F17A"/>
 </svg>
