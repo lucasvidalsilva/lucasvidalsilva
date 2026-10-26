@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" width="100%" alt="Lucas Vidal Silva — Entre o dado bruto e uma boa decisão, existe engenharia." />
+  <img src="./hero.svg" width="100%" alt="Lucas Vidal Silva — Entre o dado bruto e uma boa decisão, existe engenharia." />
 </div>
 
 <br>
