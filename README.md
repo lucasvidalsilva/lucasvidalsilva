@@ -10,7 +10,7 @@ Gosto de sistemas bem pensados, problemas que exigem mais do que um tutorial e i
 
 Às vezes isso vira um pipeline. Às vezes um experimento estranho. De vez em quando, algo realmente útil.
 
-**[LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah)** · **[Ver os experimentos ↓](#algumas-perguntas-que-viraram-código)**
+**[LinkedIn](https://www.linkedin.com/in/lucasvidalsilva)** · **[Ver os experimentos ↓](#algumas-perguntas-que-viraram-código)**
 
 ---
 
@@ -81,6 +81,6 @@ Não tento fazer tudo parecer pronto. Prefiro mostrar a trajetória: a pergunta,
 
 <br>
 
-**[Vamos conversar?](https://www.linkedin.com/in/lucasvidalsilvah)**
+**[Vamos conversar?](https://www.linkedin.com/in/lucasvidalsilva)**
 
 </div>
