@@ -67,14 +67,6 @@ Um laboratório local para experimentar tabelas Iceberg, armazenamento compatív
 </tr>
 </table>
 
-### O caminho entre dado e decisão
-
-<img src="./assets/pipeline.svg" width="100%" alt="Capturar origem, validar contratos, transformar modelo e explicar a decisão" />
-
-É fácil fazer um pipeline que roda. Mais interessante é entender **o que acontece quando ele falha, quando a fonte muda ou quando os números deixam de fazer sentido**.
-
-É aí que geralmente começam minhas melhores perguntas.
-
 ### Fora das linhas de código
 
 Tenho interesse por dados, IA, sistemas, economia, música e pelas ideias que conectam assuntos aparentemente distantes. Gosto de estudar fundamentos, escrever sobre o que aprendo e construir coisas para colocar as hipóteses à prova.
