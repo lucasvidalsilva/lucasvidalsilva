@@ -2,91 +2,65 @@
 
 <img src="./header.svg" width="100%" alt="Lucas Vidal Silva — Engenheiro de Dados" />
 
-<br>
+# Lucas Vidal Silva
 
-### Engenheiro de Dados
+### Engenharia de Dados
 
-Transformo dados dispersos em **pipelines confiáveis** e **produtos de dados úteis para decisão**.
+Construo e estudo pipelines, modelos analíticos e controles de qualidade com foco em rastreabilidade, correção e capacidade de explicar decisões técnicas.
 
-<div align="center">
+[LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah) · [Projetos](#projetos-selecionados) · [Princípios](#como-penso-engenharia)
 
-![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-111827?style=flat-square&logo=postgresql&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-111827?style=flat-square&logo=apachespark&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-111827?style=flat-square&logo=databricks&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-111827?style=flat-square&logo=databricks&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-111827?style=flat-square&logo=dbt&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-111827?style=flat-square&logo=apachekafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=white)
-
-</div>
-
-[LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah) · [Projetos](#projetos-em-destaque)
+`Python` · `SQL` · `PySpark` · `Databricks` · `Delta Lake` · `dbt` · `Kafka`
 
 </div>
 
 ---
 
-## Projetos em destaque
+## Projetos selecionados
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| Projeto | Problema | Estado e evidência |
+| --- | --- | --- |
+| **[Pulso Pix](https://github.com/lucasvidalsilva/projeto-pulso-pix-databricks)** | Transformar estatísticas públicas do Pix em dados analíticos rastreáveis | Pipeline batch Bronze/Silver/Gold, testes unitários, bundle, CI/CD e execução de 2025 documentada |
+| **[CredLake](https://github.com/lucasvidalsilva/credito-analytics-databricks)** | Reconciliar carteira de crédito sintética com regras auditáveis | Código Medallion, quarentenas, job e testes estáticos; execução Spark ainda deve ser reproduzida no workspace |
+| **[Data Quality](https://github.com/lucasvidalsilva/data-quality)** | Impedir que dados climáticos inválidos avancem silenciosamente | Contrato Great Expectations e testes locais; orquestração completa e CI ainda pendentes |
+| **[dbt ETL](https://github.com/lucasvidalsilva/dbt-etl)** | Tratar transformação analítica como software | Ingestão IPEA, modelos e testes dbt, DAG Airflow; artefatos registram uma execução anterior |
 
-### [CredLake](https://github.com/lucasvidalsilva/credito-analytics-databricks)
+> Por onde começar: **Pulso Pix** é o case mais completo e comprovável. **CredLake** concentra modelagem e controles financeiros. Os demais mostram componentes úteis, com limitações documentadas.
 
-Lakehouse para análise de carteira de crédito.
+## Experimentos em evolução
 
-**Mostra:** ingestão batch e incremental, Medallion, qualidade, quarentena, reconciliação financeira, camada Gold, observabilidade e orquestração.
+- **[CDC Real-Time](https://github.com/lucasvidalsilva/cdc-realtime):** PostgreSQL, Debezium, Kafka e DuckDB; INSERT funciona no código, enquanto UPDATE, DELETE aplicado e idempotência estão pendentes.
+- **[Lakehouse Local](https://github.com/lucasvidalsilva/lakehouse-local):** Iceberg, MinIO e DuckDB; cria snapshots, mas ainda não demonstra leitura histórica nem schema evolution.
+- **[DataLab](https://github.com/lucasvidalsilva/DataLab):** plataforma educacional para desafios de engenharia de dados; MVP implementado, ainda sem autenticação e deploy verificado.
 
-`Databricks` `PySpark` `Delta Lake` `Auto Loader` `Lakeflow`
+## Como penso engenharia
 
-</td>
-<td width="50%" valign="top">
+Um pipeline que terminou sem erro não necessariamente entregou dados corretos.
 
-### [CDC Real-Time](https://github.com/lucasvidalsilva/cdc-realtime)
+1. **Origem e contrato:** fonte, grão, chaves e comportamento esperado.
+2. **Correção:** perdas, duplicidades, nulos e reconciliação.
+3. **Reexecução:** como recuperar ou processar novamente sem corromper resultados.
+4. **Operação:** testes, métricas e diagnóstico de falhas.
+5. **Valor:** consumidor, pergunta e decisão habilitada.
 
-Pipeline de Change Data Capture a partir do WAL do PostgreSQL.
+Prefiro justificar batch ou streaming, formato, ferramenta e complexidade a partir do problema. Projetos exploratórios aparecem como experimentos; não como sistemas de produção.
 
-**Mostra:** captura de `INSERT`, `UPDATE` e `DELETE` sem recarregar a tabela inteira.
+## Interesses técnicos
 
-`PostgreSQL` `Debezium` `Kafka` `Python`
+**Engenharia de dados:** Python, SQL, Spark, Lakehouse, Delta Lake e modelagem.
 
-</td>
-</tr>
+**Confiabilidade:** contratos, qualidade, reconciliação, governança e observabilidade.
 
-<tr>
-<td width="50%" valign="top">
+**Plataforma:** CDC, dbt, orquestração, versionamento e CI/CD.
 
-### [Data Quality](https://github.com/lucasvidalsilva/data-quality)
-
-Pipeline defensivo com contratos de dados e validação automática.
-
-**Mostra:** dado ruim é bloqueado antes de chegar à camada analítica.
-
-`Great Expectations` `dbt` `DuckDB` `Testing`
-
-</td>
-<td width="50%" valign="top">
-
-### [Lakehouse Local](https://github.com/lucasvidalsilva/lakehouse-local)
-
-Lakehouse local usando formatos abertos.
-
-**Mostra:** time travel, schema evolution e consultas analíticas sem depender de um warehouse proprietário.
-
-`Iceberg` `MinIO` `DuckDB` `Parquet`
-
-</td>
-</tr>
-</table>
+**Complementares:** IA aplicada e produtos que tornam dados utilizáveis.
 
 ---
 
 <div align="center">
 
-<br>
+**Construir sistemas · compreender princípios · entregar valor**
 
-**construir sistemas · entender princípios · gerar valor**
+[Converse comigo no LinkedIn](https://www.linkedin.com/in/lucasvidalsilvah)
 
 </div>
